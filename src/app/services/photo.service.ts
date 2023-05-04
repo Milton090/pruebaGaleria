@@ -9,7 +9,7 @@ import { Platform } from '@ionic/angular';
 export interface UserPhoto {
   filepath: string; // ruta del archivo de la foto en el sistema de archivos del dispositivo
   // URL o ruta de acceso a la foto en la vista web de la aplicación 
-  webviewPath: string | undefined; //posible error de versiones, por eso el | undefined
+  webviewPath: string | undefined; //posible error de versiones, por eso el | undefined pff bien ahi
 }
 
 @Injectable({
